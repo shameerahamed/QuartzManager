@@ -1,0 +1,10 @@
+
+
+long dev_dttm = com.utils.DateUtils.textToDate("2012-04-28 12:59").
+					- com.utils.DateUtils.textToDate("2012-04-27 21:59").getTime();
+System.out.print(dev_dttm);
+
+
+java.util.Calendar cal = java.util.Calendar.getInstance();
+cal.setTime(com.utils.DateUtils.textToDate("2012-04-28 12:59"));
+System.out.println(System.currentTimeMillis() - cal.getTimeInMillis());

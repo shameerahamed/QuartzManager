@@ -1,0 +1,104 @@
+select {
+    border: #109284 1px solid;
+    width:auto;
+    font-size:11px;
+}
+
+input{
+    border: #1075EF 1px solid;    
+    width:130px;
+}
+
+.btn {
+	background:#5296F7;
+	color:#FFFFFF;
+}
+
+
+.mand {
+    color:red;
+}
+
+table.main{
+      background: #109284;      
+}
+
+.row1{ 
+  color:#FFFFFF;
+}
+
+
+.row2{ 
+  color:#000000;
+}
+
+body {
+	font-size:11px;
+}
+
+a{
+	color : #095148;	
+	
+}
+
+a:hover {	
+	text-decoration: none; 
+}
+
+
+.first,.next,.last,.prev {
+	cursor: pointer;
+	width: 16px;
+	height: 16px;
+	border: none;
+}
+
+
+.first {
+	background : url('../images/icons/first.png') no-repeat;	
+}
+
+.prev {
+	background : url('../images/icons/prev.png') no-repeat;
+}
+
+.last {
+	background : url('../images/icons/last.png') no-repeat;
+}
+
+.next {
+	background : url('../images/icons/next.png') no-repeat;	
+}
+
+.dataTableBorder {
+	background: #CFCFB5;
+}
+
+.dataTableHeading {
+	padding: 2px 3px 2px 3px;
+	background: #7A94A1;
+	font-size: 0.70em;
+	font-weight: normal;
+	color: #FFFFFF;
+	vertical-align: top;
+}
+
+.dataTableRowWhite td {
+	background: #FFFFFF;
+}
+
+.dataTableRowBlue td {
+	background: #ECEFF1;
+}
+
+
+/* css for timepicker */
+.ui-timepicker-div .ui-widget-header { margin-bottom: 8px;}
+.ui-timepicker-div dl { text-align: left; }
+.ui-timepicker-div dl dt { height: 25px; margin-bottom: -25px; }
+.ui-timepicker-div dl dd { margin: 0 10px 10px 65px; }
+.ui-timepicker-div td { font-size: 90%; }
+.ui-tpicker-grid-label { background: none; border: none; margin: 0; padding: 0; }
+
+
+#ui-datepicker-div {	display:none; }

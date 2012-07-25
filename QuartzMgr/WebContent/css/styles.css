@@ -1,0 +1,137 @@
+body {
+	font-size:12px;	
+}
+
+a{
+	color : #095148;
+	font-weight: bold; 
+	
+}
+
+a:hover {	
+	text-decoration: none; 
+}
+
+.menu {
+	background: #C1DFF7;
+	font: bolder; 
+}
+
+table.menu td {
+	background: url('../images/common/btn_bg.gif') repeat-x;
+}
+
+.menubtn {
+	background:none;
+	border:none;
+}
+
+table.menu {
+	background: #848284;
+}
+
+table.tbl {
+	background: #388BF1; 
+	/* #786778*/
+}
+
+table.tbl td {
+	background: #D3ECFE;
+}
+
+table.tbl th {
+	background: #79C4FB;
+}
+
+.menusplit {
+	background: #ADAA9C;
+	width: 1px;
+	height: 650px;
+}
+
+.edit {
+	background: url('../images/common/b_edit.png');
+	width: 16px;
+	height: 16px;
+	border: none;
+}
+
+.view {
+	background: url('../images/common/b_view.png');
+	width: 16px;
+	height: 16px;
+	border: none;
+}
+
+.delete {
+	background: url('../images/common/b_drop.png');
+	width: 16px;
+	height: 16px;
+	border: none;
+}
+
+.task_dev {
+	background: #FF9D9F;
+	padding-left: 10px;
+}
+
+.task_open {
+	background: #FFCEE8;
+	padding-left: 10px;
+}
+
+.task_inprog {
+	background: #D3ECFE;
+	padding-left: 10px;
+}
+
+.task_onhold {
+	background: #FFFF9C;
+	padding-left: 10px;
+}
+
+.task_completed {
+	background: #CEFFCE;
+	padding-left: 10px;
+}
+
+select {
+    border: #109284 1px solid;
+    width:auto;
+    font-size:11px;
+}
+
+input{
+    border: #1075EF 1px solid;    
+    width:130px;
+}
+
+.btn {
+	background:#5296F7;
+	color:#FFFFFF;
+}
+
+.tbl_header th, .tbl_header td{
+	background: url('../images/common/header2.gif') repeat-x;
+}
+
+.header {
+	background: url('../images/common/header1.gif') repeat-x;
+}
+
+.mand {
+    color:red;
+}
+
+table.main{
+      background: #109284;      
+}
+
+.row1{ 
+  color:#FFFFFF;
+}
+
+
+.row2{ 
+  color:#000000;
+}
