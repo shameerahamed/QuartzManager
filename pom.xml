@@ -24,7 +24,12 @@
         </repository>
     </repositories>
 	
-	<dependencies>		
+	<dependencies>
+		<dependency>
+			<groupId>struts</groupId>
+			<artifactId>struts</artifactId>
+			<version>1.2.8</version>
+		</dependency>
 		
 		<dependency>
 			<groupId>commons-beanutils</groupId>
