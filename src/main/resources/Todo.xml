@@ -7,6 +7,7 @@
 	<typeAlias alias="loginObj" type="com.form.LoginForm"/>
 	<typeAlias alias="searchObj" type="com.vo.SearchVo"/>	
 	<typeAlias alias="taskObj" type="com.form.TaskForm"/>
+	<typeAlias alias="taskLogVoObj" type="com.vo.TaskLogVo"/>
 		
 	<resultMap class="com.vo.TaskVo" id="TaskVo">
 		<result property="taskId" column="task_id"/>		
@@ -43,9 +44,9 @@
 	</resultMap>
 		
 	<select id="getLoginUser" resultClass="loginObj" parameterClass="LoginObj">
-		SELECT user_id as userId,username as userName
+		SELECT user_id as userId,user_name as userName
 			FROM tbl_user
-		WHERE username = #username#
+		WHERE user_name = #username#
 		AND password = #password#
 		AND status = 1;
 	</select>
@@ -128,6 +129,11 @@
 			    FROM tbl_todolist
 		WHERE task_Id =#value#;
 	</select>
+
+	<insert id="insertTaskLog" parameterClass="taskLogVoObj">
+		INSERT INTO tbl_tasklog (stat_comment, status, task_id) VALUES
+		(#statComment#, #status#, #taskId#);
+	</insert>
 	
 	<select id="populateLog" parameterClass="java.lang.Integer" resultMap="logVo">
 		SELECT date_format( current_dttm, '%Y-%m-%d %h:%i' ) AS current_dttm , stat_comment , 

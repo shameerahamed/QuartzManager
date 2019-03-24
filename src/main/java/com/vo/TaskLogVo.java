@@ -6,6 +6,7 @@ public class TaskLogVo implements Serializable{
     String date;
     String status;
     String statComment;
+    int taskId;
 
     public String getDate() {
 	return date;
@@ -29,6 +30,14 @@ public class TaskLogVo implements Serializable{
 
     public void setStatComment(String statComment) {
 	this.statComment = statComment;
+    }
+
+    public void setTaskId(int taskId) {
+        this.taskId = taskId;
+    }
+
+    public int getTaskId() {
+       return taskId;
     }
 
 }

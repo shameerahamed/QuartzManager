@@ -16,6 +16,7 @@ public class TaskVo implements Serializable {
     String status;
     String devDttm;
     String devReason;
+    String statComment;
 
     public int getTaskId() {
 	return taskId;
@@ -119,6 +120,14 @@ public class TaskVo implements Serializable {
 
     public void setDevReason(String devReason) {
 	this.devReason = devReason;
+    }
+
+    public void setStatComment(String statComment) {
+        this.statComment = statComment;
+    }
+
+    public String getStatComment() {
+        return this.statComment;
     }
 
 }

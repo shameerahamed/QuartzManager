@@ -8,5 +8,5 @@
         enhancementEnabled="true"
         useStatementNamespaces="true"
         />
-    <sqlMap resource="com/biz/Todo.xml"/>    
+    <sqlMap resource="Todo.xml"/>
 </sqlMapConfig>
